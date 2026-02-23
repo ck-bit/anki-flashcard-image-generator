@@ -3,28 +3,31 @@
 Parallel image generation for Korean flashcard images.
 
 Usage:
-    pip install fal-client openpyxl aiohttp
+    pip install fal-client aiohttp
     export FAL_KEY="your-fal-api-key"
 
-    # Generate from prompt spreadsheet (primary workflow)
+    # Generate from session CSV (primary workflow)
+    python generate_images.py --csv session_2026-02-23.csv
+
+    # Also still supports xlsx prompt sheets
     python generate_images.py --xlsx korean_anki_image_prompts_v2.xlsx
 
     # Options
-    --images-per-scene 2    (default: 2)
+    --images-per-scene 2
     --output flashcard_images
     --concurrency 10
-    --limit 5               (test first N scenes)
-    --dry-run               (preview without generating)
+    --limit 5
+    --dry-run
 
-Output filenames:
-    {scene_id}_{letter}_{korean}_{job_id}.png
-    e.g. 001_a_거의_20260223_143052.png
-
-Output directory:
+Output:
     flashcard_images/{job_id}/
+        001_a_거의_{job_id}.png
+        001_b_거의_{job_id}.png
+        manifest_{job_id}.json
 """
 
 import asyncio
+import csv
 import json
 import re
 import argparse
@@ -52,13 +55,11 @@ IMAGES_PER_SCENE = 2
 # Helpers
 # ---------------------------------------------------------------------------
 def sanitize_filename(text: str, max_len: int = 20) -> str:
-    """Keep hangul, strip everything else."""
     clean = re.sub(r"[^\w가-힣]", "", text)
     return clean[:max_len] if clean else "unknown"
 
 
 def extract_korean_label(sentence: str) -> str:
-    """Pull the first Korean word from a sentence."""
     match = re.search(r"[가-힣]+", sentence)
     return match.group(0) if match else "unknown"
 
@@ -66,10 +67,40 @@ def extract_korean_label(sentence: str) -> str:
 # ---------------------------------------------------------------------------
 # Prompt loading
 # ---------------------------------------------------------------------------
+def load_prompts_from_csv(path: str) -> list[tuple[int, str, str]]:
+    """Load prompts from session CSV.
+    Returns unique [(scene_id, prompt, korean_label), ...].
+    Reads 'Prompt A' column. Deduplicates by Scene ID (one prompt per scene)."""
+    with open(path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+
+    seen_scenes = {}
+    skipped = []
+
+    for row in rows:
+        scene_id = int(row["Scene ID"])
+        if scene_id in seen_scenes:
+            continue
+
+        prompt = (row.get("Prompt A") or "").strip()
+        if not prompt:
+            skipped.append(scene_id)
+            continue
+
+        sentence = row.get("Full Sentence", "")
+        korean_label = extract_korean_label(sentence)
+        seen_scenes[scene_id] = (scene_id, prompt, korean_label)
+
+    if skipped:
+        print(f"WARNING: {len(skipped)} scenes have no prompt in 'Prompt A': {skipped}")
+
+    return list(seen_scenes.values())
+
+
 def load_prompts_from_xlsx(path: str) -> list[tuple[int, str, str]]:
-    """Returns [(scene_id, prompt, korean_label), ...].
-    Reads column H (Selected Prompt), falls back to column E (Prompt A).
-    Korean label from column B (Full Sentence)."""
+    """Load prompts from the image prompt spreadsheet (legacy support).
+    Reads column H (Selected Prompt), falls back to column E (Prompt A)."""
     from openpyxl import load_workbook
 
     wb = load_workbook(path, read_only=True)
@@ -125,7 +156,6 @@ async def generate_one(
     job_id: str,
     semaphore: asyncio.Semaphore,
 ) -> dict:
-    """Generate a single image."""
     safe_label = sanitize_filename(korean_label)
     filename = f"{scene_id:03d}_{letter}_{safe_label}_{job_id}.png"
     async with semaphore:
@@ -171,7 +201,6 @@ async def generate_batch(
     images_per_scene: int,
     job_id: str,
 ) -> list[dict]:
-    """Fire off all prompts in parallel."""
     semaphore = asyncio.Semaphore(MAX_CONCURRENT)
     letters = string.ascii_lowercase[:images_per_scene]
 
@@ -189,7 +218,6 @@ async def generate_batch(
 # Download
 # ---------------------------------------------------------------------------
 async def download_images(results: list[dict], output_dir: Path):
-    """Download generated images to local disk."""
     import aiohttp
 
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -212,7 +240,8 @@ async def main():
     global MAX_CONCURRENT, MODEL
 
     parser = argparse.ArgumentParser(description="Generate flashcard images")
-    parser.add_argument("--xlsx", help="Image prompts spreadsheet (.xlsx)")
+    parser.add_argument("--csv", help="Session CSV file (primary input)")
+    parser.add_argument("--xlsx", help="Image prompts spreadsheet (legacy)")
     parser.add_argument("-f", "--file", help="Prompts text file (one per line)")
     parser.add_argument("-o", "--output", default="flashcard_images", help="Output base directory")
     parser.add_argument("-n", "--concurrency", type=int, default=MAX_CONCURRENT)
@@ -226,17 +255,18 @@ async def main():
     MAX_CONCURRENT = args.concurrency
     MODEL = args.model
 
-    # Job ID shared across filenames, directories, and manifest
     job_id = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_dir = Path(args.output) / job_id
 
     # Load prompts
-    if args.xlsx:
+    if args.csv:
+        scenes = load_prompts_from_csv(args.csv)
+    elif args.xlsx:
         scenes = load_prompts_from_xlsx(args.xlsx)
     elif args.file:
         scenes = load_prompts_from_file(args.file)
     else:
-        print("Provide --xlsx <spreadsheet> or -f <prompts.txt>")
+        print("Provide --csv <session.csv>, --xlsx <spreadsheet>, or -f <prompts.txt>")
         return
 
     if args.limit:
@@ -261,7 +291,6 @@ async def main():
         print(f"Dry run complete. {total_images} images would be generated.")
         return
 
-    # Generate
     results = await generate_batch(scenes, args.images_per_scene, job_id)
 
     succeeded = [r for r in results if r["url"]]
@@ -269,13 +298,11 @@ async def main():
     print(f"\n✓ {len(succeeded)} succeeded, ✗ {len(failed)} failed")
     print(f"  Job ID: {job_id}\n")
 
-    # Save manifest
     output_dir.mkdir(parents=True, exist_ok=True)
     manifest_path = output_dir / f"manifest_{job_id}.json"
     manifest_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
     print(f"Manifest saved to {manifest_path}")
 
-    # Download
     if not args.no_download and succeeded:
         print("\nDownloading images...")
         await download_images(results, output_dir)

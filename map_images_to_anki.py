@@ -4,35 +4,36 @@ Map generated scene images to Anki cards and copy to Anki media folder.
 
 Usage:
     python map_images_to_anki.py \
-        --csv korean_anki_cloze_v2.csv \
-        --images ./generated_images/ \
-        --output korean_anki_final.csv \
-        --anki-media "~/Library/Application Support/Anki2/User 1/collection.media"
+        --csv session_2026-02-23.csv \
+        --images flashcard_images
 
-What this script does:
-    1. Reads the CSV (with Scene ID column)
-    2. Scans the images folder for {scene_id}_a.png, {scene_id}_b.png, etc.
-    3. Groups images by scene ID
-    4. Adds an "Image" column with <img> tags for all images matching that scene
-    5. Copies all matched images into the Anki media folder
-    6. Writes the updated CSV ready for Anki import
+What this does:
+    1. Reads the session CSV (with Scene ID as last column)
+    2. Scans the images folder for {scene_id}_{letter}_{korean}_{job_id}.png
+    3. Populates the "Image" column with <img> tags
+    4. Strips Prompt A / Prompt B columns (not needed for Anki import)
+    5. Copies matched images into Anki's collection.media folder
+    6. Writes final CSV: korean_anki_final_{job_id}.csv
 
-Filename convention expected:
-    001_a.png, 001_b.png, 001_c.png, 001_d.png
-    002_a.png, 002_b.png, ...
-    (zero-padded 3-digit scene ID + underscore + letter)
+Input CSV columns:
+    Front, Back, Full Sentence, Extra Info, Target Word (English),
+    Front (Definitions), Prompt A, Prompt B, Image, Scene ID
+
+Output CSV columns (Anki-ready):
+    Front, Back, Full Sentence, Extra Info, Target Word (English),
+    Front (Definitions), Image, Scene ID
 """
 
 import argparse
 import csv
-import shutil
 import re
+import shutil
 from pathlib import Path
 from collections import defaultdict
 
 
 def find_anki_media_folder() -> Path | None:
-    """Try to auto-detect Anki media folder on common OS paths."""
+    """Auto-detect Anki media folder."""
     candidates = [
         Path.home() / "Library" / "Application Support" / "Anki2",  # macOS
         Path.home() / ".local" / "share" / "Anki2",                 # Linux
@@ -40,7 +41,6 @@ def find_anki_media_folder() -> Path | None:
     ]
     for base in candidates:
         if base.exists():
-            # Find first profile folder
             for profile in sorted(base.iterdir()):
                 media = profile / "collection.media"
                 if media.exists():
@@ -49,7 +49,7 @@ def find_anki_media_folder() -> Path | None:
 
 
 def scan_images(images_dir: Path) -> dict[int, list[Path]]:
-    """Scan directory for scene images. Returns {scene_id: [path, ...]} sorted.
+    """Scan directory for scene images. Returns {scene_id: [path, ...]}.
     Handles all filename formats:
         001_a.png
         001_a_20260223_143052.png
@@ -61,7 +61,6 @@ def scan_images(images_dir: Path) -> dict[int, list[Path]]:
     )
     scene_images = defaultdict(list)
 
-    # Scan the directory and any immediate subdirectories
     dirs_to_scan = [images_dir]
     if images_dir.exists():
         for child in images_dir.iterdir():
@@ -80,32 +79,43 @@ def scan_images(images_dir: Path) -> dict[int, list[Path]]:
 
 
 def build_img_tags(filenames: list[str]) -> str:
-    """Build HTML img tags for Anki field."""
     return " ".join(f'<img src="{name}">' for name in filenames)
+
+
+# Columns to keep for Anki import (in order)
+ANKI_COLUMNS = [
+    "Front",
+    "Back",
+    "Full Sentence",
+    "Extra Info",
+    "Target Word (English)",
+    "Front (Definitions)",
+    "Image",
+    "Scene ID",
+]
 
 
 def main():
     parser = argparse.ArgumentParser(description="Map scene images to Anki CSV cards")
-    parser.add_argument("--csv", required=True, help="Input CSV with Scene ID column")
+    parser.add_argument("--csv", required=True, help="Input session CSV")
     parser.add_argument("--images", required=True, help="Directory with generated images")
-    parser.add_argument("--output", default=None, help="Output CSV path (default: korean_anki_final_{job_id}.csv)")
-    parser.add_argument("--job-id", default=None, help="Job ID to match generate_images.py run (used in output filename)")
-    parser.add_argument("--anki-media", default=None,
-                        help="Anki collection.media folder (auto-detected if omitted)")
-    parser.add_argument("--dry-run", action="store_true",
-                        help="Preview what would happen without copying files")
+    parser.add_argument("--output", default=None, help="Output CSV (default: korean_anki_final_{job_id}.csv)")
+    parser.add_argument("--job-id", default=None, help="Job ID (auto-detected from images folder)")
+    parser.add_argument("--anki-media", default=None, help="Anki collection.media folder")
+    parser.add_argument("--keep-prompts", action="store_true", help="Keep Prompt A/B columns in output")
+    parser.add_argument("--dry-run", action="store_true", help="Preview without copying files")
     args = parser.parse_args()
 
-    # Resolve job ID and output path
+    csv_path = Path(args.csv)
+    images_dir = Path(args.images)
+
+    # Resolve job ID
     job_id = args.job_id
-    if not job_id:
-        # Try to detect from images directory (look for timestamped subdirs)
-        images_dir = Path(args.images)
-        if images_dir.exists():
-            subdirs = sorted([d.name for d in images_dir.iterdir() if d.is_dir()])
-            if subdirs:
-                job_id = subdirs[-1]  # Most recent
-                print(f"Auto-detected job ID from latest run: {job_id}")
+    if not job_id and images_dir.exists():
+        subdirs = sorted([d.name for d in images_dir.iterdir() if d.is_dir()])
+        if subdirs:
+            job_id = subdirs[-1]
+            print(f"Auto-detected job ID: {job_id}")
 
     if not job_id:
         from datetime import datetime
@@ -113,10 +123,7 @@ def main():
 
     output_path = Path(args.output) if args.output else Path(f"korean_anki_final_{job_id}.csv")
 
-    csv_path = Path(args.csv)
-    images_dir = Path(args.images)
-
-    # Resolve Anki media folder
+    # Resolve Anki media
     if args.anki_media:
         anki_media = Path(args.anki_media)
     else:
@@ -142,14 +149,21 @@ def main():
         reader = csv.DictReader(f)
         rows = list(reader)
 
-    # Track stats
-    cards_with_images = 0
-    cards_without_images = 0
-    images_copied = 0
-    files_to_copy = set()
+    # Determine output columns
+    if args.keep_prompts:
+        out_columns = list(rows[0].keys())
+        # Make sure Image is in there
+        if "Image" not in out_columns:
+            out_columns.insert(-1, "Image")  # Before Scene ID
+    else:
+        out_columns = ANKI_COLUMNS
 
     # Build output rows
+    cards_with_images = 0
+    cards_without_images = 0
+    files_to_copy = set()
     output_rows = []
+
     for row in rows:
         scene_id = int(row["Scene ID"])
         images = scene_images.get(scene_id, [])
@@ -160,12 +174,13 @@ def main():
             cards_with_images += 1
             files_to_copy.update(images)
         else:
-            row["Image"] = ""
+            row["Image"] = row.get("Image", "")
             cards_without_images += 1
 
         output_rows.append(row)
 
     # Copy images to Anki media
+    images_copied = 0
     if not args.dry_run:
         for img_path in sorted(files_to_copy):
             dest = anki_media / img_path.name
@@ -175,12 +190,11 @@ def main():
         images_copied = len(files_to_copy)
 
     # Write output CSV
-    fieldnames = list(rows[0].keys()) + (["Image"] if "Image" not in rows[0] else [])
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f, quoting=csv.QUOTE_ALL)
-        writer.writerow(fieldnames)
+        writer.writerow(out_columns)
         for row in output_rows:
-            writer.writerow([row.get(field, "") for field in fieldnames])
+            writer.writerow([row.get(col, "") for col in out_columns])
 
     # Report
     prefix = "[DRY RUN] " if args.dry_run else ""
@@ -191,6 +205,7 @@ def main():
     print(f"  Unique images copied: {images_copied}")
     print(f"  Output CSV:           {output_path}")
     print(f"  Anki media folder:    {anki_media}")
+    print(f"  Prompt columns:       {'kept' if args.keep_prompts else 'stripped'}")
 
     if cards_without_images > 0:
         missing = set()
