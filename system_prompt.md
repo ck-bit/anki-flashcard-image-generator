@@ -95,6 +95,9 @@ All image prompts must follow this format:
 * Depict the **SCENARIO of the full sentence**, NOT the isolated target word
 * This prevents spoiling the cloze-deletion answer
 * Keep descriptions visual and concrete, not abstract
+* Should lean into absurd scenarios when possible
+* When describing scenes that describe ME as the subject, use the following:
+- Young korean male with black messy bangs, white polo, dark navy blue pants, brown eyes. 
 
 ---
 
