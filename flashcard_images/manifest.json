@@ -1,38 +1,1554 @@
 [
   {
-    "index": 0,
-    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a young person at a wooden desk late at night, laptop glowing with a music project timeline nearly complete, warm desk lamp casting golden light, scattered sheet music and headphones nearby, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
-    "url": "https://v3b.fal.media/files/b/0a8fa964/cBVm1T6ShKNP_3OMy3Kcu_bbc2e29a2f7f4904b2f076d6098fb195.jpg",
+    "scene_id": 1,
+    "letter": "a",
+    "filename": "001_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, close-up of hands resting on a MIDI keyboard, a monitor behind showing a progress bar at 95 percent, cozy home studio with fairy lights and warm shadows, no text no words no letters n the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa60/pDc4_xttd0dvqoS1hoFVz_0189d56c13a1415fa2d4586ceb0c05e3.jpg",
     "error": null
   },
   {
-    "index": 1,
-    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, two people sitting together at a cozy cafe, one holding up a phone showing something creative, the other leaning in with a curious warm expression, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
-    "url": "https://v3b.fal.media/files/b/0a8fa963/4soyi-rzLQVmfuY6zHD-k_fba3c9a364704dfbaa314c5c5b338773.jpg",
+    "scene_id": 1,
+    "letter": "b",
+    "filename": "001_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, close-up of hands resting on a MIDI keyboard, a monitor behind showing a progress bar at 95 percent, cozy home studio with fairy lights and warm shadows, no text no words no letters n the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/KJgabmyeFT5O0T_as7Kc2_59d1b97de08b44cb8a30cfec9d2f693b.jpg",
     "error": null
   },
   {
-    "index": 2,
-    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a wall-mounted PA speaker with visible sound waves emanating, a school hallway, students looking up in alarm, ominous tense atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
-    "url": "https://v3b.fal.media/files/b/0a8fa964/Stbi3drHlGuCdUrslnGgF_c27d058380ec476faf8d59c63a598fe8.jpg",
+    "scene_id": 2,
+    "letter": "a",
+    "filename": "002_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person presenting a hand-drawn design on paper to a friend across a small table, hopeful eyes seeking approval, afternoon light through a window, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/2g2srUHPqlCv-OcztpvSQ_d5ca38546b1a40929eb2dedb2c6603ff.jpg",
     "error": null
   },
   {
-    "index": 3,
+    "scene_id": 2,
+    "letter": "b",
+    "filename": "002_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person presenting a hand-drawn design on paper to a friend across a small table, hopeful eyes seeking approval, afternoon light through a window, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/sQTwhp4Pmn8ds0JJIjGLs_fc755d202a874b4bbd5cbeef1a21024d.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 3,
+    "letter": "a",
+    "filename": "003_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a desk covered with flyers and QR code cards next to a laptop showing a music streaming page, creative promotional chaos, warm overhead lighting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/diz5EaId4Q-rKtGM-Oot2_09a589eccdd1471ea39be44a15c28323.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 3,
+    "letter": "b",
+    "filename": "003_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a desk covered with flyers and QR code cards next to a laptop showing a music streaming page, creative promotional chaos, warm overhead lighting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/eBytpGElY05gSgR0SttNO_cd965748f1824bcfae28f2815275fd43.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 4,
+    "letter": "a",
+    "filename": "004_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a phone screen showing a video with a rapidly rising view counter, the person holding it looking excited and gesturing animatedly to a friend, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/kvAMYFcg3GIZweFw9PyPt_49c8c3c2d8cb486ea95ed96a68e4108f.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 4,
+    "letter": "b",
+    "filename": "004_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a phone screen showing a video with a rapidly rising view counter, the person holding it looking excited and gesturing animatedly to a friend, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/hA6HxOfnqcY3OioQq0zrj_56e5fdccddb24046bab961aa9abba012.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 5,
+    "letter": "a",
+    "filename": "005_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a cozy room with a small group of passionate people gathered around shared niche interests, warm lighting and personal decorations everywhere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/Iw5v3Qj2lzqmrl-x8SuY2_9f3648c327d24a22b613ec685c2f2e1b.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 5,
+    "letter": "b",
+    "filename": "005_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a cozy room with a small group of passionate people gathered around shared niche interests, warm lighting and personal decorations everywhere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/IRlT-95Blqo4X44LBqepT_122c1cd229094b5b9365fff5657b05a9.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 6,
+    "letter": "a",
+    "filename": "006_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a split composition showing a child's hands holding a Game Boy on one side and adult hands on a keyboard on the other, same warm light connecting both eras, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/12JV1XI1z_SFPjsHdSxAe_1a546fcead6c4dd48c9563c2ea708b20.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 6,
+    "letter": "b",
+    "filename": "006_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a split composition showing a child's hands holding a Game Boy on one side and adult hands on a keyboard on the other, same warm light connecting both eras, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/6mnyN_kTJPJ6ml3iJSUVR_c215d7d03a4b4d5d8b4bee0964bb90bd.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 7,
+    "letter": "a",
+    "filename": "007_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a grandchild running toward a traditional Korean house gate where a grandmother waits with open arms, cherry blossoms falling, warm golden light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/c5mxasC7HNTi2bwB1xUzZ_a9a0a6eed9cf4ce8939bb591e65b5c28.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 7,
+    "letter": "b",
+    "filename": "007_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a grandchild running toward a traditional Korean house gate where a grandmother waits with open arms, cherry blossoms falling, warm golden light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa62/kK8LPfzXEHEkbeFSpJ0h0_f531fa142106429d9a086bfab70071a5.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 8,
+    "letter": "a",
+    "filename": "008_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a side-by-side view of a Nintendo DS and a modern phone showing a similar dual-screen layout, placed on a wooden desk, design comparison energy, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa61/hOLTXPk0NCUv3qhHPQyGK_2a38da06d04c46c391a239d0031f0511.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 8,
+    "letter": "b",
+    "filename": "008_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a side-by-side view of a Nintendo DS and a modern phone showing a similar dual-screen layout, placed on a wooden desk, design comparison energy, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa62/d7GeSnNKoFtQmlRBt_8aE_1438ad1ad5854a7990fbebef56aff2a4.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 9,
+    "letter": "a",
+    "filename": "009_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a modern device placed next to a Nintendo DS on a wooden table, visual arrows suggesting their shared design language, soft natural light from a window, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa62/MJKyXMEVgisYgkNXGtL0e_b067e6a2cb084e07bc204d5277d9f5b2.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 9,
+    "letter": "b",
+    "filename": "009_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a modern device placed next to a Nintendo DS on a wooden table, visual arrows suggesting their shared design language, soft natural light from a window, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa62/L2ybmuehKjjx77gTpAag-_1258f5a236564760a973ce48c8ec71b6.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 10,
+    "letter": "a",
+    "filename": "010_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a Nintendo DS gently morphing into a modern interface, transformation shown as overlapping watercolor layers, dreamlike comparison, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa62/p53BKRdLMPHecktc3s3Jx_d11023ac35004dd7920fb76033f578e5.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 10,
+    "letter": "b",
+    "filename": "010_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a Nintendo DS gently morphing into a modern interface, transformation shown as overlapping watercolor layers, dreamlike comparison, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa62/Ghr42w4n3nQK8uGmraXOm_01a768696ef04ff9a49dc298bfd4c109.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 11,
+    "letter": "a",
+    "filename": "011_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a kid bouncing joyfully on a large  redexercise ball while a camera on a tripod films them, bright playful energy, outdoor park setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa62/d1BVuV-JWBticWfJRmJPe_c01eaa2a24fd4675885843cb16e44e0f.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 11,
+    "letter": "b",
+    "filename": "011_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a kid bouncing joyfully on a large  redexercise ball while a camera on a tripod films them, bright playful energy, outdoor park setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa62/NlR-g0opPKiFsqMvfKPfg_650dbaaae2c5434fb7745b418a3ff514.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 12,
+    "letter": "a",
+    "filename": "012_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person frozen mid-jump being filmed, camera visible in foreground, dynamic pose suspended in air, outdoor setting with blue sky, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa62/jVhebYW9QTEh-DMHpOr3B_b26968f73dce45d6b8917df498126bbc.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 12,
+    "letter": "b",
+    "filename": "012_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person frozen mid-jump being filmed, camera visible in foreground, dynamic pose suspended in air, outdoor setting with blue sky, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa62/Uzw7VVqiPQcth5aBzwN2i_3b3042005f324667857bd4251dcedf0a.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 13,
+    "letter": "a",
+    "filename": "013_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a montage composition showing the same person jumping on a red gym ball in four different scenic locations: a park then a rooftop then a beach then an alley, connected by flowing watercolor, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa62/3fsH3ZL6hlfFpuDQYPRed_ce5f1fb25b5c4edaa889212aed7cba2a.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 13,
+    "letter": "b",
+    "filename": "013_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a montage composition showing the same person jumping on a red gym ball in four different scenic locations: a park then a rooftop then a beach then an alley, connected by flowing watercolor, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa62/XYp3gTSWP8al9rxsEG4yx_f0d8423f42f547038adf2c69994e6763.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 14,
+    "letter": "a",
+    "filename": "014_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a playful collage of someone riding a red gym ball in different locations: a park then a rooftop then a hallway then a bridge, connected by watercolor washes, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/I_ZCAeUPuYYVWcpEgrH0A_cfe501a6b1ee44a4a41c158140a6fb49.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 14,
+    "letter": "b",
+    "filename": "014_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a playful collage of someone riding a red gym ball in different locations: a park then a rooftop then a hallway then a bridge, connected by watercolor washes, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/CmC34khFzswTtw9rYClpR_d478eb8097f64e3d9ae4afa50bb18d33.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 15,
+    "letter": "a",
+    "filename": "015_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person on a street corner looking at their phone showing a map, searching for a restaurant, urban evening setting with warm restaurant lights in the distance, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/3Oo3OtT8O8-oWQNG8g1wa_ab659affb2c648f2a737e54cae6ddd11.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 15,
+    "letter": "b",
+    "filename": "015_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person on a street corner looking at their phone showing a map, searching for a restaurant, urban evening setting with warm restaurant lights in the distance, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/_xtE-b1rZspwfmDToL1Mh_417df72281664ccbbb5fb0605bd16379.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 16,
+    "letter": "a",
+    "filename": "016_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a DS-style mini-game interface glowing on a modern screen, colorful and playful, someone pointing at it with delighted recognition, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/w5nDlj_F7l7Q60HOwAzpv_bb38da9b22994a4c9e50a7093131d5b9.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 16,
+    "letter": "b",
+    "filename": "016_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a DS-style mini-game interface glowing on a modern screen, colorful and playful, someone pointing at it with delighted recognition, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/HTXG62VvfyrnaEWBYD0mM_c06885e50a2d49b4be28b307b53b6801.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 17,
+    "letter": "a",
+    "filename": "017_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person staring at a video editing timeline for the first time with wide overwhelmed eyes, multiple tracks and clips visible on a glowing screen, messy desk, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/tlN-k57skylVt_7BnGzMX_baec2c4be54f48c6a7f59da396b911ad.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 17,
+    "letter": "b",
+    "filename": "017_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person staring at a video editing timeline for the first time with wide overwhelmed eyes, multiple tracks and clips visible on a glowing screen, messy desk, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/OmvMG9Dis6TPyRUH0Y2zV_28e50b3891aa4abea2a9fb3470b89475.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 18,
+    "letter": "a",
+    "filename": "018_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person excitedly opening new software on their laptop for the first time, the screen glowing with a fresh empty interface, anticipation on their face, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/bDhapQ_My2N8-iFA_zVTg_a11df035bb414267b371f5451381a5be.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 18,
+    "letter": "b",
+    "filename": "018_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person excitedly opening new software on their laptop for the first time, the screen glowing with a fresh empty interface, anticipation on their face, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/PyLtoGPkJbIy55ANVVpxR_272ef23ef89045e78dce1665748a119d.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 19,
+    "letter": "a",
+    "filename": "019_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person's eyes wide with wonder seeing something beautiful for the first time, standing in a doorway looking at a new vista, golden light ahead, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/X-SwHyhrB34eiLBKJhv43_54c35bda02104439bd68a6b8011c44e7.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 19,
+    "letter": "b",
+    "filename": "019_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person's eyes wide with wonder seeing something beautiful for the first time, standing in a doorway looking at a new vista, golden light ahead, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/Q3hyXh0aw4-yZfGWqOaYO_e81b738bdf3544baa86daba65538c6a7.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 20,
+    "letter": "a",
+    "filename": "020_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person stepping through the entrance of an unfamiliar place, one foot forward into new territory, backpack on, curious expression, warm light beyond, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/zwnTGFctKD8b6d1mfmzUM_91a14c72eb534365b4503ada129f72a2.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 20,
+    "letter": "b",
+    "filename": "020_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person stepping through the entrance of an unfamiliar place, one foot forward into new territory, backpack on, curious expression, warm light beyond, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/T1qv2-fqaM1cJxv4dxRGC_9f54c7a611324d28924044698d4cfb29.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 21,
+    "letter": "a",
+    "filename": "021_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person wearing headphones with eyes closed, hearing something wonderful for the first time, visible reaction of musical discovery, warm room, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa63/RsroWs_ohaemT6bv-W3Rm_0780e9d48a8843eaab15828248886731.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 21,
+    "letter": "b",
+    "filename": "021_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person wearing headphones with eyes closed, hearing something wonderful for the first time, visible reaction of musical discovery, warm room, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/8yUAoXV_Dj_XM7GfZSJ0S_78713adf1427477b83357d794636f8a7.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 22,
+    "letter": "a",
+    "filename": "022_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, one person pushing a steaming plate toward another at a Korean restaurant, encouraging gesture, the other looking at unfamiliar food with curious hesitation, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/xbLiZZNwoFL7It8kK_zf2_9a9f136395ce4163bedede3aaccf7fe1.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 22,
+    "letter": "b",
+    "filename": "022_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, one person pushing a steaming plate toward another at a Korean restaurant, encouraging gesture, the other looking at unfamiliar food with curious hesitation, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/4BmND8ztQN9GXJXU8E31p_36190e9888d942cd83393a408af0b903.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 23,
+    "letter": "a",
+    "filename": "023_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, two friends at a restaurant, one pointing at a beautiful dish on the table asking if the other has tried it, warm candlelit dinner setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/7x_2hleRX8UUprK3bXBhn_67ef785405824b3e8bfb9f27f85abd5c.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 23,
+    "letter": "b",
+    "filename": "023_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, two friends at a restaurant, one pointing at a beautiful dish on the table asking if the other has tried it, warm candlelit dinner setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/7tDno3qNpH8oqkRe3tstM_2b10fdfd75a045f48066512a19be5cf1.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 24,
+    "letter": "a",
+    "filename": "024_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person surrounded by floating speech bubbles in different beautiful scripts, polyglot energy, cozy study room setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/7RqwiBS6bVU6IL0kpy10D_9a468db10f8943a88203e470148cdd05.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 24,
+    "letter": "b",
+    "filename": "024_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person surrounded by floating speech bubbles in different beautiful scripts, polyglot energy, cozy study room setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/ks5WEfyHQEEr8YCdkLA12_48346450490e4e1b810633ce668105e6.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 25,
+    "letter": "a",
+    "filename": "025_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person at a creative desk with video editing software showing a timeline, a portfolio of different video thumbnails on a second monitor, warm studio, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/tcN45LFOwzX7-5LX_TJ0i_cfa9e4b5880b467587d0401abb16532e.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 25,
+    "letter": "b",
+    "filename": "025_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person at a creative desk with video editing software showing a timeline, a portfolio of different video thumbnails on a second monitor, warm studio, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/3AUSb87gof-7eiKv7lsSC_adef3882cacb4a099d20226534240ad3.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 26,
+    "letter": "a",
+    "filename": "026_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, two laptops side by side on a desk, one showing a cluttered editing interface and the other showing a clean one, a person's hand gesturing preference toward the clean one, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/8Aq4l_2UJHe0URRRB3y6p_62bdd7a77975442a9db171c7530f9d77.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 26,
+    "letter": "b",
+    "filename": "026_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, two laptops side by side on a desk, one showing a cluttered editing interface and the other showing a clean one, a person's hand gesturing preference toward the clean one, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa64/ZBfaJXcvn90TJN8E71Cdg_14fb1aa6da1e4b0fbefbabc926c65428.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 27,
+    "letter": "a",
+    "filename": "027_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a vision board on a bedroom wall with an album artwork mockup circled at the center, surrounded by studio photos and track listings, warm light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/BVZ1qV6xvvwrPGVu8jFLq_5ed79cc7e4024c98b0f1ba73c48858a6.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 27,
+    "letter": "b",
+    "filename": "027_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a vision board on a bedroom wall with an album artwork mockup circled at the center, surrounded by studio photos and track listings, warm light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/kegfVmZe3yfsvyijghOGd_e1d7e2789ba54755a36a4c021a50b732.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 28,
+    "letter": "a",
+    "filename": "028_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a creator's desk with a screen showing content policies and checkboxes blocking an upload, the person resting their chin in their hand with frustration, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/cwwPzUbm83Vl10JpSk-hO_af4c762eba8d449aa1664b1692556e30.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 28,
+    "letter": "b",
+    "filename": "028_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a creator's desk with a screen showing content policies and checkboxes blocking an upload, the person resting their chin in their hand with frustration, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/4clnTeKNKerN10Gypg1Xs_a3a0799e3ce54465b967e0466ddc28f2.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 29,
+    "letter": "a",
+    "filename": "029_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person clicking an upload button on their laptop with excited anticipation, a progress bar just starting, screen glow on their smiling face, cozy studio, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/axbfdC0srwJ_ShfLqwgS1_51ecde08891c46f4b1de17166113d2c7.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 29,
+    "letter": "b",
+    "filename": "029_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person clicking an upload button on their laptop with excited anticipation, a progress bar just starting, screen glow on their smiling face, cozy studio, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/fkw49KCGjHkrICrntIC8Z_ab4c3bcaaa0845deaabe6824454afe4a.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 30,
+    "letter": "a",
+    "filename": "030_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, inside a train car, a person lifting a travel bag up to the overhead luggage shelf, warm afternoon light through train windows, other passengers seated peacefully, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/koIyfAgglNyoGHkw8BCxa_83db328105d54b049c304a137886eb44.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 30,
+    "letter": "b",
+    "filename": "030_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, inside a train car, a person lifting a travel bag up to the overhead luggage shelf, warm afternoon light through train windows, other passengers seated peacefully, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/baY4XSaloi-oATvYx9SlX_71f94bb843fe4bd88f30bc60b3068f1b.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 31,
+    "letter": "a",
+    "filename": "031_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a hand setting down a backpack on top of a shoe cabinet near a front door, slippers on the floor, cozy apartment entrance, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/oEXf1BwcrhA5BhTlNBOrx_65ea1d23c4624eb58833059de226c0b9.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 31,
+    "letter": "b",
+    "filename": "031_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a hand setting down a backpack on top of a shoe cabinet near a front door, slippers on the floor, cozy apartment entrance, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/dCMBo9zNjHqI5met8iOSO_ac14d31742ac4689ba805d09774282a9.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 32,
+    "letter": "a",
+    "filename": "032_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person looking at a planner with tomorrow circled, laptop open to a video editor nearby, organized creative workspace, morning light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/Gs9x-3k9VGNweqdh87Lv6_09fdfe7cee1141558fe6a34e36dec90d.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 32,
+    "letter": "b",
+    "filename": "032_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person looking at a planner with tomorrow circled, laptop open to a video editor nearby, organized creative workspace, morning light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/9IazKFbF1FHIH_rHvqHeC_f2d44feb2c614581ab2decfecddbb000.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 33,
+    "letter": "a",
+    "filename": "033_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person at the bottom of steep old stone stairs being gently warned not to go up, a hand extended in a stop gesture, misty atmospheric setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa66/9DK1JiMxTQlEGnTSigoHl_69cab5f7c1dd4b249a464cdfd844e181.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 33,
+    "letter": "b",
+    "filename": "033_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person at the bottom of steep old stone stairs being gently warned not to go up, a hand extended in a stop gesture, misty atmospheric setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa65/sjJC2vSnYGUbkk4fii4Zr_8858d42afa3c467aa482d4e7842e303d.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 34,
+    "letter": "a",
+    "filename": "034_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a cat perched impossibly on top of a bookshelf looking smug, with another cat on a refrigerator and another on a guitar amp, cozy apartment with warm light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa66/nRHbgXFUWuq4EEyoz6bET_34f4833d138d4740a26f79efc3fa025d.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 34,
+    "letter": "b",
+    "filename": "034_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a cat perched impossibly on top of a bookshelf looking smug, with another cat on a refrigerator and another on a guitar amp, cozy apartment with warm light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa66/muzs9o5NTtaL8ecVGeTAy_4b43438dc507473389234ebfc8bb8f2c.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 35,
+    "letter": "a",
+    "filename": "035_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a dusty Spanish textbook on a shelf next to an actively used Korean textbook, the contrast between past attempt and current effort, warm study room light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa66/aIK7Z2JHGYHwLEep9ZVwQ_93c01ccefd15462c89e91feed5ba4d88.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 35,
+    "letter": "b",
+    "filename": "035_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a dusty Spanish textbook on a shelf next to an actively used Korean textbook, the contrast between past attempt and current effort, warm study room light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa66/N58uFjcYYVTrlkgCTBoL6_f99ebbcfb95c4f4eaa1c9c9fd5190401.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 36,
+    "letter": "a",
+    "filename": "036_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a university lecture hall with a professor at a chalkboard covered in phonetic symbols and syntax trees, students taking notes, warm academic light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa66/NWaAi-6aJvJzQwW17tyXR_b90f3080fd2f48ed8a9be1ee0591af0d.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 36,
+    "letter": "b",
+    "filename": "036_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a university lecture hall with a professor at a chalkboard covered in phonetic symbols and syntax trees, students taking notes, warm academic light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa66/AX_7gOD85XgdH5u_hkpHK_0156475c0d154bddbbe288a62055ca8c.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 37,
+    "letter": "a",
+    "filename": "037_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a confused person surrounded by language textbooks and apps and flashcards, question marks floating around them, overwhelmed but warm cozy study room, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa66/8D4kyFC8q9JJA4uX73p9G_af9abe526c694602a777c86605c71959.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 37,
+    "letter": "b",
+    "filename": "037_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a confused person surrounded by language textbooks and apps and flashcards, question marks floating around them, overwhelmed but warm cozy study room, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa66/shtDZj_waoh-JRnGTIIiM_7feafa53251f4e4da6cf2862e90eb478.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 38,
+    "letter": "a",
+    "filename": "038_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, someone on a train using a language app on their phone, a memory of past daily practice, warm commute lighting, slight nostalgic haze, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa66/UXe26fxS7aeA10-K4PN3L_56568b0f3db34e1dbc3619c225211a3a.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 38,
+    "letter": "b",
+    "filename": "038_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, someone on a train using a language app on their phone, a memory of past daily practice, warm commute lighting, slight nostalgic haze, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/VOoSYwtoUANyTvXNAKCFP_d378e47ba443482c9b189f6259f9db7a.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 39,
+    "letter": "a",
+    "filename": "039_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a friend enthusiastically showing their phone with a language app to someone, pointing at the screen with recommendation energy, cafe setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa66/PWL7xvoOn4yMFR1W8OWik_a66bd846cbe04c55bae2319a723e63e5.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 39,
+    "letter": "b",
+    "filename": "039_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a friend enthusiastically showing their phone with a language app to someone, pointing at the screen with recommendation energy, cafe setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa66/rfNkJILlgHqTbVSiT9TrT_ff3267df8b47483a94547c013f2b6162.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 40,
+    "letter": "a",
+    "filename": "040_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person slumped at their desk with a dying candle flame beside them, guitar untouched in the corner, laptop open but idle, fading light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/m33tiz_6vYhO1_p6lnJGJ_7d30a9a6ccaa4ff08f6b629e72095368.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 40,
+    "letter": "b",
+    "filename": "040_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person slumped at their desk with a dying candle flame beside them, guitar untouched in the corner, laptop open but idle, fading light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/lGs-9aXhVV2QXHewsSZ81_6ab1deef0e6d4fde85fea7e0be79eb32.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 41,
+    "letter": "a",
+    "filename": "041_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a job interview scene: two people across a desk, the interviewer asking a thoughtful question, the candidate composing their answer, bright office light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/sPkAUcI6TUSP_4C1dauC2_ff749fbe01ce4b05abd56009caf2da22.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 41,
+    "letter": "b",
+    "filename": "041_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a job interview scene: two people across a desk, the interviewer asking a thoughtful question, the candidate composing their answer, bright office light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/v90bV5xBSDWrto_b7gE-J_c1feba05d4fe48c7b7d9a4f0ef5ffbb5.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 42,
+    "letter": "a",
+    "filename": "042_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a split image: left side a person alone on a couch skipping exercise, right side the same person energized with a friend at the gym, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/3i7jsm-bbcmOkEgUx45bj_6ad7dd32fa5347359e9d2207d16f0b7a.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 42,
+    "letter": "b",
+    "filename": "042_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a split image: left side a person alone on a couch skipping exercise, right side the same person energized with a friend at the gym, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/_R4RlJckJtRHUkJ8tMF7A_79192b6a8d9f4fc3a1823c9185ca2012.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 43,
+    "letter": "a",
+    "filename": "043_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person clicking a submit button on a job application on their laptop, nervous excited energy, screen glowing on their face, home desk setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/QQbW9XzB2OJTFduIbW1to_0fc0a2e167954a219140304f9ee1f069.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 43,
+    "letter": "b",
+    "filename": "043_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person clicking a submit button on a job application on their laptop, nervous excited energy, screen glowing on their face, home desk setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/XotHMkX0krUgflhKOC2Lk_1f1a9d32ef9f49dcb2b4577fa4f670ac.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 44,
+    "letter": "a",
+    "filename": "044_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a beautiful katsu parmesan dish arriving at a restaurant table, golden breaded cutlet with melted cheese, the diner's delighted expression, warm restaurant light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/jNjiwijl0MKlvbKoBAQZ7_da5e8a17fe7c4a009638b28bdee28f7f.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 44,
+    "letter": "b",
+    "filename": "044_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a beautiful katsu parmesan dish arriving at a restaurant table, golden breaded cutlet with melted cheese, the diner's delighted expression, warm restaurant light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/3A6DyaK1vRIsNxq3_iagZ_b67c071d1a6e484d8d10575f79924b64.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 45,
+    "letter": "a",
+    "filename": "045_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a pasta dish with vibrant red Korean-style spicy sauce glistening on top, steam rising, beautiful fusion plating on a ceramic plate, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/e2ocnYDFkNGVI7imG1us8_1d48203ed82e4f1f982cbe691b5cee30.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 45,
+    "letter": "b",
+    "filename": "045_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a pasta dish with vibrant red Korean-style spicy sauce glistening on top, steam rising, beautiful fusion plating on a ceramic plate, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/NRl6qdbYBfKLYnZdD5Eej_38715a003a87450cbb7bf083e73af92a.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 46,
+    "letter": "a",
+    "filename": "046_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person in bed with a surreal dream cloud above them showing bizarre shifting overlapping imagery, nighttime bedroom with moonlight, dreamy watercolor, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa67/BlwI1mcVROGD-GZNYEhxQ_e59fe18de6b04c30b672e31733a8c954.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 46,
+    "letter": "b",
+    "filename": "046_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person in bed with a surreal dream cloud above them showing bizarre shifting overlapping imagery, nighttime bedroom with moonlight, dreamy watercolor, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa68/xSqmaif7Z1s6a8d-B5Ys1_8384a201fd7047b0abc6d6b924a55f93.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 47,
+    "letter": "a",
+    "filename": "047_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person sitting up in bed after a nightmare, moonlight on their startled face, sweat visible, the room dark and quiet, long peaceful streak broken, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa68/y2tVCYdymHiJJ6_m3EWgS_ac174e1d22264acb8fae301f93e42844.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 47,
+    "letter": "b",
+    "filename": "047_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person sitting up in bed after a nightmare, moonlight on their startled face, sweat visible, the room dark and quiet, long peaceful streak broken, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa68/CumpWhgcPdv_VGyCh9UEa_ce4d9db1b1c94236935a2f2d26de3454.png",
+    "error": null
+  },
+  {
+    "scene_id": 48,
+    "letter": "a",
+    "filename": "048_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a single person sitting alone in an empty classroom, rows of desks stretching away, blackboard at the front, eerie quiet afternoon light through windows, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa68/fiqSFqXzw75Ni6OLHWCLW_62aa3c4ca1884aebb7b8cb478be54ad2.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 48,
+    "letter": "b",
+    "filename": "048_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a single person sitting alone in an empty classroom, rows of desks stretching away, blackboard at the front, eerie quiet afternoon light through windows, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa68/92hfVSY-FBO8KurhDEjsf_e11ef46c4b054d69b74ab1f790a68401.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 49,
+    "letter": "a",
+    "filename": "049_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person sitting very still in a wooden chair, classroom setting, tension in their posture, dramatic light from one side, frozen in place, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa68/5pLFBFgF5zMx0wFIJTEKi_264785bfdd8e4458ac469f687d9558fc.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 49,
+    "letter": "b",
+    "filename": "049_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person sitting very still in a wooden chair, classroom setting, tension in their posture, dramatic light from one side, frozen in place, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa68/My0algnPcyGiNXq38_XhQ_6b93022b1c0848eaacbf9a5b1865b59b.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 50,
+    "letter": "a",
+    "filename": "050_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a dark figure wearing a black sweatjacket hoodie appearing suddenly in a doorway of a classroom, approaching menacingly toward the viewer, dramatic shadows cutting across the room, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa68/pXcIiPQ99HLAWq2V2Y9eq_b507ffb7941442b09b09b22a7220d867.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 50,
+    "letter": "b",
+    "filename": "050_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a dark figure wearing a black sweatjacket hoodie appearing suddenly in a doorway of a classroom, approaching menacingly toward the viewer, dramatic shadows cutting across the room, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa68/Ev8rv2FJPMN9FrwD0bDJN_b69d179842fc47bfaef24a610273d740.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 51,
+    "letter": "a",
+    "filename": "051_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person squinting skeptically at their laptop screen, one eyebrow raised, the screen casting suspicious blue light on their doubtful face, cozy desk setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa68/pc9yhAx7cpbK-24KJhyy-_fa6f41c921d84631930ed1c4ca7d9c2e.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 51,
+    "letter": "b",
+    "filename": "051_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person squinting skeptically at their laptop screen, one eyebrow raised, the screen casting suspicious blue light on their doubtful face, cozy desk setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa68/WRCAhBhU-hB5SOzasOIhg_35def42f3a654c40a8351df70f7b29d2.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 52,
+    "letter": "a",
+    "filename": "052_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a woman urgently gripping someones arm and leaning in to deliver a serious warning, dramatic classroom hallway setting, tension in the lighting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa68/ELYuKOsSLEJ8Ki6usT4DN_7517939853ae41ec8d26407e7a30778b.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 52,
+    "letter": "b",
+    "filename": "052_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a woman urgently gripping someones arm and leaning in to deliver a serious warning, dramatic classroom hallway setting, tension in the lighting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/E3qLBvMAY_JQpMWjiUj99_8353aa7e77704c1693f6c2eaf9548878.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 53,
+    "letter": "a",
+    "filename": "053_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a woman urgently gripping someones arm and leaning in to deliver a serious warning, dramatic classroom hallway setting, tension in the lighting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/_XUXAVaf7ZN4dEZtzq-F3_f0b9b2d5844e4c36840584957608f175.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 53,
+    "letter": "b",
+    "filename": "053_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a woman urgently gripping someones arm and leaning in to deliver a serious warning, dramatic classroom hallway setting, tension in the lighting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/lVLhNy98DP4v1geUbz2Uw_28387196baab419795fa892757e2a15f.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 54,
+    "letter": "a",
+    "filename": "054_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a hand aggressively grabbing fabric at someone's collar, close-up of the grab, tension in the knuckles, dramatic angle and lighting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/bF3qFmQ4TnpdYirgnFQz-_57dceb933e3a4e8ab7d6ad7a31d87066.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 54,
+    "letter": "b",
+    "filename": "054_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a hand aggressively grabbing fabric at someone's collar, close-up of the grab, tension in the knuckles, dramatic angle and lighting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/NQESUJDRzq5UJOvOIRZMI_99659b7d2f4f448dbd58d497174d39ef.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 55,
+    "letter": "a",
+    "filename": "055_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a dark silhouette holding a blade near someones throat from behind, the victims terrified eyes visible, dramatic shadows and single light source, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/x4HFWg6e8s3j9svqMD59L_2512628f2e014928a9146ef3daa6d1d6.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 55,
+    "letter": "b",
+    "filename": "055_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a dark silhouette holding a blade near someones throat from behind, the victims terrified eyes visible, dramatic shadows and single light source, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/g3K74zA6rvu42wU1v74n0_4660ec403baf486e92746f2a75561b56.png",
+    "error": null
+  },
+  {
+    "scene_id": 56,
+    "letter": "a",
+    "filename": "056_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person frozen completely still with wide eyes, hands slightly raised in surrender, someone commanding them from the shadows, tense dramatic light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/MmTkLaB1CG8n1dAG3vHjo_5ed53c9a429449ddb343cfbec5848b28.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 56,
+    "letter": "b",
+    "filename": "056_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person frozen completely still with wide eyes, hands slightly raised in surrender, someone commanding them from the shadows, tense dramatic light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/Rm2hVyM1NajZIrEM5o5hI_ce13adb06fea4f08a970c5fd525bc7a7.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 57,
+    "letter": "a",
+    "filename": "057_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a close-up of a finger pressed firmly to lips in a forceful shh gesture, intense threatening eyes above, dramatic shadow cutting across the face, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/QsPoR4caFQzQnhqIZGsxm_d8c3a2dd75c047529c7066aa1cb36c42.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 57,
+    "letter": "b",
+    "filename": "057_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a close-up of a finger pressed firmly to lips in a forceful shh gesture, intense threatening eyes above, dramatic shadow cutting across the face, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/QoU1IYEU-_8UVGjQxNlrT_6dc2330072f54ddbb12e04816f7a3c34.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 58,
+    "letter": "a",
+    "filename": "058_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a close-up of a mouth being covered by a threatening hand, wide terrified eyes above, do not speak energy, dark dramatic atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6a/GkkyCLvftlFHFCxPeM9jG_d6a411de301a4a1681932417b47125c3.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 58,
+    "letter": "b",
+    "filename": "058_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a close-up of a mouth being covered by a threatening hand, wide terrified eyes above, do not speak energy, dark dramatic atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/HRF8VYy-Hqg0AT4e6drme_18218a31782942ff8661fa16eb66beb9.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 59,
+    "letter": "a",
+    "filename": "059_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a threatening figure leaning in extremely close, the sentence trailing off with implied violence, ellipsis energy, dark moody atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa69/Q_YvmmQd6otLFb6uY0OAG_8e38922dd0874bfd83908d870c4c3e6f.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 59,
+    "letter": "b",
+    "filename": "059_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a threatening figure leaning in extremely close, the sentence trailing off with implied violence, ellipsis energy, dark moody atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6a/MB4tLttJZng3W64GlYz5d_995d02d449b94aed91bae36d90878a15.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 60,
+    "letter": "a",
+    "filename": "060_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person in a chair in a dark room with a single harsh light overhead, hostage scenario, their expression resigned and afraid, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6a/h6QRzRb5w9yvWivqsvi8S_bd7dbcca25614300af53c09630bcc7c5.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 60,
+    "letter": "b",
+    "filename": "060_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person in a chair in a dark room with a single harsh light overhead, hostage scenario, their expression resigned and afraid, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6a/BFP71w2UC2MpAs9V4exVk_5e0d25d167ec4d48b764bdf0da5f22a0.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 61,
+    "letter": "a",
+    "filename": "061_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person being pulled back by a shadowy figure, the moment of capture, dramatic motion suggested by watercolor streaks, fear on their face, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6a/7-rEuPk-Z-WsXl993SDRQ_7b7944d5697b4969ba0effeaca9f7e0b.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 61,
+    "letter": "b",
+    "filename": "061_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person being pulled back by a shadowy figure, the moment of capture, dramatic motion suggested by watercolor streaks, fear on their face, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6a/4PYij_KZ99CGR_0vw2QQ3_30c790c270944ab6b9e52b53520db4aa.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 62,
+    "letter": "a",
+    "filename": "062_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, police officers apprehending a suspect on a city street, the moment of capture, blue and warm light mixing, justice served scene, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6a/wrRQH5lmMYLEFuagiFtng_8e63b7b7c01f42318a02e6103ca0c88e.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 62,
+    "letter": "b",
+    "filename": "062_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, police officers apprehending a suspect on a city street, the moment of capture, blue and warm light mixing, justice served scene, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6a/7KqSeFe9xDbJp6qv7Wfvx_75d4c58daa484fd1b4c64313080832f1.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 63,
+    "letter": "a",
+    "filename": "063_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person behind bars in a cell, just been caught, passive defeated energy, harsh overhead light casting grid shadows, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6a/RH8Smy10WnlbW7NSbWysv_13a4bb912c674aa987efa8e2c60a3d8d.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 63,
+    "letter": "b",
+    "filename": "063_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person behind bars in a cell, just been caught, passive defeated energy, harsh overhead light casting grid shadows, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6a/AiJogolY62JcroziqqFq4_0a70e8e6989345f0abfcee844871351d.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 64,
+    "letter": "a",
+    "filename": "064_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person delivering a powerful defensive kick, foot mid-strike, dynamic action pose, dramatic motion energy in the watercolor style, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6a/8jt1eASfeonHKdvgQOLfU_5c00077b45c84fceb5704faef24cf6dd.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 64,
+    "letter": "b",
+    "filename": "064_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person delivering a powerful defensive kick, foot mid-strike, dynamic action pose, dramatic motion energy in the watercolor style, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6b/WgQ3bvvftlOCBChOFWBGg_cfea7d680685417d9261c479166182e6.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 65,
+    "letter": "a",
+    "filename": "065_a.png",
     "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person bursting through school double doors into bright daylight, escape energy, running motion, freedom ahead of them, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
-    "url": "https://v3b.fal.media/files/b/0a8fa962/Lma00U6wpOaQFW0irVc1Y_12219cffd2da4921a9514a5911ff8ede.jpg",
+    "url": "https://v3b.fal.media/files/b/0a8faa6b/W-GhVW6YW7RsDaAZ6VwFA_b2e698b5dd7b445587307b81dd2cb411.jpg",
     "error": null
   },
   {
-    "index": 4,
+    "scene_id": 65,
+    "letter": "b",
+    "filename": "065_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person bursting through school double doors into bright daylight, escape energy, running motion, freedom ahead of them, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6b/Uub-fK_HtwCOPVByJa0cX_33cbbafedda047578dfe6f81536c766f.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 66,
+    "letter": "a",
+    "filename": "066_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a wall-mounted PA speaker with visible sound waves emanating, a school hallway, students looking up in alarm, ominous tense atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6b/5HRBnbn0EGrr2IbL8dRix_4229e86d3dd94412ac69432dc9f75d62.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 66,
+    "letter": "b",
+    "filename": "066_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a wall-mounted PA speaker with visible sound waves emanating, a school hallway, students looking up in alarm, ominous tense atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6b/B7OKH22p-Iw5u9uNSYvNL_7ab0ac4181e64ae1b3ce6da28c316c91.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 67,
+    "letter": "a",
+    "filename": "067_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a menacing figure holding up nine fingers as an ultimatum, dramatic harsh lighting from below, threatening countdown energy, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6b/7yl-dhbP3qkJpmfAUUBR__c47376503f8b41bca0b0452823738775.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 67,
+    "letter": "b",
+    "filename": "067_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a menacing figure holding up nine fingers as an ultimatum, dramatic harsh lighting from below, threatening countdown energy, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6b/3SqImq8nIIO0o82gFC5mA_599e5569bbf34160a5fed7364b7e03bb.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 68,
+    "letter": "a",
+    "filename": "068_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a countdown display showing nine seconds, urgent red glow, a person looking at it with panic rising, running out of time energy, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6b/qzjCmbJvhBuOtXLpns-a-_772d6029b186487fa4dc5a6327ddd2d5.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 68,
+    "letter": "b",
+    "filename": "068_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a countdown display showing nine seconds, urgent red glow, a person looking at it with panic rising, running out of time energy, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6b/MZKCKvtOXK9XjaybMLiNV_8496be58d1e2436ca9640d58d85503f4.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 69,
+    "letter": "a",
+    "filename": "069_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a threatening dark silhouette making a declaration toward a school building in the distance, ominous storm clouds gathering above, dramatic atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/CKcUxACbZ9sqOmcIWfzVs_e9ab5fed08bf4d12a3c7c16d1343202e.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 69,
+    "letter": "b",
+    "filename": "069_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a threatening dark silhouette making a declaration toward a school building in the distance, ominous storm clouds gathering above, dramatic atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6b/zjocp01rH4WDWrSmVUB34_6bae941ae0404b7e8a17ba78abbaf317.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 70,
+    "letter": "a",
+    "filename": "070_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a school hallway in complete pandemonium, people running in all directions, papers and objects scattered, chaotic motion captured in dynamic watercolor, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/-BvitsL7UoRKKB88-l2b6_3be8ff67a9824a24b246b2e1aebf9856.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 70,
+    "letter": "b",
+    "filename": "070_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a school hallway in complete pandemonium, people running in all directions, papers and objects scattered, chaotic motion captured in dynamic watercolor, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6b/T3FlAx5jr5JW-l_mT5VsM_d9ba800e0527404294488c0be3d4aa87.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 71,
+    "letter": "a",
+    "filename": "071_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a group of people scattering in different directions from a central point like an explosion of watercolor, birds-eye view, dispersal energy, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/IPRYf57m89sVnc5rhV-aK_049d61235f0e46bbaf1441c070d16e1e.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 71,
+    "letter": "b",
+    "filename": "071_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a group of people scattering in different directions from a central point like an explosion of watercolor, birds-eye view, dispersal energy, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/2yUzL9GYoNEKh6PvFdZWU_41a8390fccaa453cba5d3474e28881cf.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 72,
+    "letter": "a",
+    "filename": "072_a.png",
     "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person finding shelter behind a solid wall, relief washing over their face, finally safe, warm protective light in contrast to danger outside, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
-    "url": "https://v3b.fal.media/files/b/0a8fa962/cZYKMd_evKKZXPMAthnR5_1fd2395b82b84c93890a3ecc5118e3f0.jpg",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/VqifSqD0fTEuTHb-kIZKE_a20a9902dae7431da40aba8b62dbec48.jpg",
     "error": null
   },
   {
-    "index": 5,
-    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a dark hooded figure appearing suddenly in a doorway of a classroom, approaching menacingly toward the viewer, dramatic shadows cutting across the room, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
-    "url": "https://v3b.fal.media/files/b/0a8fa963/B__QCtNBtsvMolXjewuAE_a9764e7db41a4961b287f2679d63f4c1.jpg",
+    "scene_id": 72,
+    "letter": "b",
+    "filename": "072_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person finding shelter behind a solid wall, relief washing over their face, finally safe, warm protective light in contrast to danger outside, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/B4b0ZDYCxnNbp1hKDpVfs_c308049acf5d4c07b8419674450bb43d.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 73,
+    "letter": "a",
+    "filename": "073_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person presenting a project that radiates success energy, stars and upward motion around their laptop, startup celebration feeling, bright warm light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/ITE6i2vlcOdsidlIHJH0A_b1cb442031cc4fd7a73e0454f8731748.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 73,
+    "letter": "b",
+    "filename": "073_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person presenting a project that radiates success energy, stars and upward motion around their laptop, startup celebration feeling, bright warm light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/N3P2MZIHcN2qodDv7gaz0_ec0284b5a8b7407f8f3e386007b09718.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 74,
+    "letter": "a",
+    "filename": "074_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person in a brand new music studio, fresh monitors and MIDI keyboard and guitar on wall, producing a beat with headphones on, warm fairy light atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/jZ1JoBVDgZZs0cGuIpdt5_62a72fef73b24e4588cba0aba21bd453.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 74,
+    "letter": "b",
+    "filename": "074_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person in a brand new music studio, fresh monitors and MIDI keyboard and guitar on wall, producing a beat with headphones on, warm fairy light atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/JYJ9cQNFY5PsndaG6zmyP_645ad0b8198b4b98af462e8a7acff5e6.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 75,
+    "letter": "a",
+    "filename": "075_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, two friends talking late at night by candlelight, one leaning in to ask a spooky question, the other looking uncertain, ghost story atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/XuwJXLTJTq4-B7LfpS96V_dd5d44274cfa41109579732c08cc8c94.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 75,
+    "letter": "b",
+    "filename": "075_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, two friends talking late at night by candlelight, one leaning in to ask a spooky question, the other looking uncertain, ghost story atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/M5NuXmzIDXk7IbWRLVyYV_c76ccf695d3b4da5bde5b2f4112c9109.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 76,
+    "letter": "a",
+    "filename": "076_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, one person giving a warm encouraging shoulder touch to another who looks worried, it will be okay energy, soft warm light between them, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/zvg0we3cYsfDELzOY36Cw_594203a516ec492ab57169714d81fa02.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 76,
+    "letter": "b",
+    "filename": "076_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, one person giving a warm encouraging shoulder touch to another who looks worried, it will be okay energy, soft warm light between them, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/X_q9U96KALyw6haaIg_73_8425631e62ad4cd3ab5eaf9d9da4101e.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 77,
+    "letter": "a",
+    "filename": "077_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person recounting a folk tale or saying, their hand gesturing as they speak, listeners leaning in, cozy gathering setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6c/HROHKCTLjaJ5QbY6TLtDO_4c86e75a01d2438689e3e0f1050f4b28.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 77,
+    "letter": "b",
+    "filename": "077_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person recounting a folk tale or saying, their hand gesturing as they speak, listeners leaning in, cozy gathering setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/3lqrswlTEU9-ia9Ye96PS_0319f6fac31c4ef0bc67aa04c3e82426.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 78,
+    "letter": "a",
+    "filename": "078_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a family standing together for a photo, one person clearly taller than everyone else, warm family portrait energy, smiling faces, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/PQWANj2zf3y4hQlPSXAUp_5aaa1d42ddcc4fce823ae649fa55801f.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 78,
+    "letter": "b",
+    "filename": "078_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a family standing together for a photo, one person clearly taller than everyone else, warm family portrait energy, smiling faces, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/yIbEqziTbbWRRx64UslhZ_01df6fbc21524a9fba2291c671a4a4cc.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 79,
+    "letter": "a",
+    "filename": "079_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a bookshelf with books of varying sizes, one massive thick book standing out prominently among thinner ones, a hand reaching for it, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/A_hGD4s6UmNk01sTe0ujI_a9611809d5d74ac29925fc1b5cf1e0d0.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 79,
+    "letter": "b",
+    "filename": "079_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a bookshelf with books of varying sizes, one massive thick book standing out prominently among thinner ones, a hand reaching for it, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/xu56hD01v6kGJZKWNU0nu_36139d9536254b808401121eb44233b7.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 80,
+    "letter": "a",
+    "filename": "080_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person with vibrant pink hair looking stunning, others nearby admiring the look with genuine appreciation, warm bright lighting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/yfTq8JBsjPUkvhTyQo0mg_edf1b9d42f4d4dda9e520055242066db.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 80,
+    "letter": "b",
+    "filename": "080_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person with vibrant pink hair looking stunning, others nearby admiring the look with genuine appreciation, warm bright lighting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/UyDoWiYIBxKGwvKr5ANzM_af4cdaff448846fb87c1ea62b087cb56.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 81,
+    "letter": "a",
+    "filename": "081_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person trying on a gray hat in front of a mirror, it looks perfect on them, satisfied content expression, warm natural light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/V-9I6F5B1yoJ8N10NXLMw_191d53a125d54886836553875ea940f1.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 81,
+    "letter": "b",
+    "filename": "081_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person trying on a gray hat in front of a mirror, it looks perfect on them, satisfied content expression, warm natural light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/xeHZt44Z8mSBmXiVClGvv_4143811baec440ba8db26bff805ef6bc.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 82,
+    "letter": "a",
+    "filename": "082_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person putting on sunglasses that suit them perfectly, a friend nearby giving a delighted approving thumbs up, summer golden light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/dstQVm0a7vh5eQGCvyNKp_2608ff42b4084f618751b346b20033fa.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 82,
+    "letter": "b",
+    "filename": "082_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person putting on sunglasses that suit them perfectly, a friend nearby giving a delighted approving thumbs up, summer golden light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/U2dxTSvaK-cVupFrvKrym_241666dc88cd4dd7b66a05e231853ca0.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 83,
+    "letter": "a",
+    "filename": "083_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a bedroom wall with a music or film poster that perfectly completes the room aesthetic, guitar nearby and monitors on a desk, warm creative room, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/GWzrsw0uYQnz1byJfjsG9_c89f213399a24621baccf01c8c90a133.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 83,
+    "letter": "b",
+    "filename": "083_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a bedroom wall with a music or film poster that perfectly completes the room aesthetic, guitar nearby and monitors on a desk, warm creative room, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/4OSxfYQ4byWMWM6gu8EHp_53678ba5659d4bf985891134c7974fff.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 84,
+    "letter": "a",
+    "filename": "084_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a potted plant placed in the perfect corner of a room, completing the space beautifully, interior design satisfaction, warm natural light on the leaves, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6d/7-0C0qbASpBR4Q_bvZLzQ_e58bd5bb494045c39807ddf2f5846636.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 84,
+    "letter": "b",
+    "filename": "084_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a potted plant placed in the perfect corner of a room, completing the space beautifully, interior design satisfaction, warm natural light on the leaves, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/NO_ay_twnxSYjsWQhPWHK_5533be4494694696a899b1102c67345c.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 85,
+    "letter": "a",
+    "filename": "085_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a hand holding elegant metal Korean chopsticks picking up food from a spread of banchan, traditional Korean dining table, warm inviting meal, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/PkpDMI5E1kLNfk23uCbdY_5b426358f75649d09a7c3df3159e8258.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 85,
+    "letter": "b",
+    "filename": "085_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a hand holding elegant metal Korean chopsticks picking up food from a spread of banchan, traditional Korean dining table, warm inviting meal, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/Ppu4A9MO8zzn4xUsHAyCd_7c306a45d8084a7cb6a0313bc409c9e8.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 86,
+    "letter": "a",
+    "filename": "086_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person eating Korean soup with a long Korean spoon, steam rising from a stone pot, comfort food warmth, cozy Korean meal setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/JLsTCDSOb-F-4zDFLojQo_bb4351aaea0647e588de2a7db6fc6da4.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 86,
+    "letter": "b",
+    "filename": "086_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person eating Korean soup with a long Korean spoon, steam rising from a stone pot, comfort food warmth, cozy Korean meal setting, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/yEbGyJtkFxloGVeGvTeKS_a8caee44c9604d8eaf155ef156775f79.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 87,
+    "letter": "a",
+    "filename": "087_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, close-up of red sore fingertips pressing guitar strings, the pain of dedicated practice, warm intimate detail of a musician's hands, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/0lGg4q4yMsUlaG03LNMRu_7e51b62411714756b62976959fd13a47.png",
+    "error": null
+  },
+  {
+    "scene_id": 87,
+    "letter": "b",
+    "filename": "087_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, close-up of red sore fingertips pressing guitar strings, the pain of dedicated practice, warm intimate detail of a musician's hands, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/xwtuCfZK9dejT0F2OF95G_2771beba96d4475a85f1de5ce21a93c3.png",
+    "error": null
+  },
+  {
+    "scene_id": 88,
+    "letter": "a",
+    "filename": "088_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a playful illustration of bare feet with ten toes wiggling happily, warm sunny floor, lighthearted counting energy, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/-up0T_2dHSpdBFseTUL_A_d9d8363caacf4d1396ecec2e6a20e890.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 88,
+    "letter": "b",
+    "filename": "088_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a playful illustration of bare feet with ten toes wiggling happily, warm sunny floor, lighthearted counting energy, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/0mIGKEF7qNL60bhsDVmx2_276c78c2fe7a4bfdb90a00afc87d89c3.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 89,
+    "letter": "a",
+    "filename": "089_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, one person caringly offering a hat to another before they go outside on a bright sunny day, protective kindness, warm outdoor light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/2wtS7HCuIW8p7iK-xT6kD_8c248448bd804fc9afaff92f08733939.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 89,
+    "letter": "b",
+    "filename": "089_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, one person caringly offering a hat to another before they go outside on a bright sunny day, protective kindness, warm outdoor light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/o915qr-5dUaGCOyVJ3WsJ_b24ee5e1058d46d29e65eb7a4f452a49.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 90,
+    "letter": "a",
+    "filename": "090_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person wearing a baseball cap backwards looking effortlessly cool and confident, street style energy, golden hour urban light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/9NAe7pU3OoILi8zI1iyRC_27eeee1ce54749a59623d283a6ba13cd.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 90,
+    "letter": "b",
+    "filename": "090_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person wearing a baseball cap backwards looking effortlessly cool and confident, street style energy, golden hour urban light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6e/cMc4benuwxTX2QmFMfhbo_0fd2863ea49b45e98936d2e5e6be5c5e.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 91,
+    "letter": "a",
+    "filename": "091_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a two-panel scene: left side someone squinting at a blurry world, right side putting on glasses and everything snapping into beautiful sharp focus, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/S3_3BwFsajXddoYCEhE_b_94fe628e041844f0b939176de7ad12e5.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 91,
+    "letter": "b",
+    "filename": "091_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a two-panel scene: left side someone squinting at a blurry world, right side putting on glasses and everything snapping into beautiful sharp focus, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/my9-1paTLhsV6Bvq-OhE-_6fe5c5ac507e460eae5de167c0c2932b.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 92,
+    "letter": "a",
+    "filename": "092_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, two old friends running into each other on a street and lighting up with joy and surprise, long time no see energy, warm sunshine reunion, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/Y-WAsA2sEQb62OCmx6WyW_e0fcfbe2519f4f47a3d00a4338b5fd0c.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 92,
+    "letter": "b",
+    "filename": "092_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, two old friends running into each other on a street and lighting up with joy and surprise, long time no see energy, warm sunshine reunion, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/zSWhR5Djt3lLP1HBmf7jU_eff656b6294540d184ab8fa27de44592.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 93,
+    "letter": "a",
+    "filename": "093_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a movie screen showing a ghostly figure suddenly materializing in a dark scene, the audience in silhouette reacting with shock, cinema atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/Xp3HW7cJgVJLuDQBx-pYH_8da14603989d45b9a260d94daebf897f.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 93,
+    "letter": "b",
+    "filename": "093_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a movie screen showing a ghostly figure suddenly materializing in a dark scene, the audience in silhouette reacting with shock, cinema atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/psCJQ0rkT2aemEjU884Cq_cc5849bad37545409a0f4afa22eaf790.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 94,
+    "letter": "a",
+    "filename": "094_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a calendar with graduation day marked getting closer, pages gently lifting forward in a breeze, anticipation building, bittersweet warm light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/oCuPFadTC11hXv_7Z3WlK_96bf2957851a40d6b0c5bd7c5dc4f859.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 94,
+    "letter": "b",
+    "filename": "094_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a calendar with graduation day marked getting closer, pages gently lifting forward in a breeze, anticipation building, bittersweet warm light, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/UMThkZlp_jpMN1lUgNh0v_68b65c4e6e6c4df5a8f955383e389adc.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 95,
+    "letter": "a",
+    "filename": "095_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person anxiously checking a large clock, how much time is left energy, deadline pressure, dramatic ticking atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/viMUxshUa0ao47Mkqf_el_1316f659b55947f1b0b4c4f0fb2e2918.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 95,
+    "letter": "b",
+    "filename": "095_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person anxiously checking a large clock, how much time is left energy, deadline pressure, dramatic ticking atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/z-KR1NU3VBdmF2RjQznB3_baa54c1434a74d7886d682ca5eb6d332.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 96,
+    "letter": "a",
+    "filename": "096_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, childhood photographs and memories slowly fading to white, a person reaching for them as they dissolve, nostalgic bittersweet watercolor dissolving effect, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/9OHwu7vAQ1UIqqHqkK_Wv_42c51e19b06941ae9941f49cc6b0458d.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 96,
+    "letter": "b",
+    "filename": "096_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, childhood photographs and memories slowly fading to white, a person reaching for them as they dissolve, nostalgic bittersweet watercolor dissolving effect, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/Wz3HqonDsAyeg0tHb-SOu_effb6d33a48c4c618fd842c8f482d8ed.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 97,
+    "letter": "a",
+    "filename": "097_a.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person in a professional international development setting, world map on the office wall, surrounded by project documents, meaningful global work atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa6f/06dEi5Fhwl5t1z1YHXVo4_b89b9ed763054d7f9e92fa088223026a.jpg",
+    "error": null
+  },
+  {
+    "scene_id": 97,
+    "letter": "b",
+    "filename": "097_b.png",
+    "prompt": "Soft watercolor hand-drawn illustration in the style of Studio Ghibli, warm muted palette, delicate ink outlines with gentle color washes, a person in a professional international development setting, world map on the office wall, surrounded by project documents, meaningful global work atmosphere, no text no words no letters no numbers in the image, square composition, striking expressive characters with elegant features and detailed eyes, soft natural lighting, painterly watercolor texture with visible paper grain",
+    "url": "https://v3b.fal.media/files/b/0a8faa70/u5vbozoJcrn9-c5hABTCe_5138501542c24442bf3151e7d9ef32f8.jpg",
     "error": null
   }
 ]

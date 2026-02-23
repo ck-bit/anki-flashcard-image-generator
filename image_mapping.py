@@ -49,15 +49,32 @@ def find_anki_media_folder() -> Path | None:
 
 
 def scan_images(images_dir: Path) -> dict[int, list[Path]]:
-    """Scan directory for scene images. Returns {scene_id: [path, ...]} sorted by letter."""
-    pattern = re.compile(r"^(\d+)_([a-z])\.(png|jpg|jpeg|webp)$", re.IGNORECASE)
+    """Scan directory for scene images. Returns {scene_id: [path, ...]} sorted.
+    Handles all filename formats:
+        001_a.png
+        001_a_20260223_143052.png
+        001_a_거의_20260223_143052.png
+    Scans subdirectories (for timestamped job folders)."""
+    pattern = re.compile(
+        r"^(\d+)_([a-z])(?:_[^.]+)?\.(png|jpg|jpeg|webp)$",
+        re.IGNORECASE
+    )
     scene_images = defaultdict(list)
 
-    for f in sorted(images_dir.iterdir()):
-        match = pattern.match(f.name)
-        if match:
-            scene_id = int(match.group(1))
-            scene_images[scene_id].append(f)
+    # Scan the directory and any immediate subdirectories
+    dirs_to_scan = [images_dir]
+    if images_dir.exists():
+        for child in images_dir.iterdir():
+            if child.is_dir():
+                dirs_to_scan.append(child)
+
+    for scan_dir in dirs_to_scan:
+        for f in sorted(scan_dir.iterdir()):
+            if f.is_file():
+                match = pattern.match(f.name)
+                if match:
+                    scene_id = int(match.group(1))
+                    scene_images[scene_id].append(f)
 
     return dict(scene_images)
 
@@ -71,16 +88,33 @@ def main():
     parser = argparse.ArgumentParser(description="Map scene images to Anki CSV cards")
     parser.add_argument("--csv", required=True, help="Input CSV with Scene ID column")
     parser.add_argument("--images", required=True, help="Directory with generated images")
-    parser.add_argument("--output", required=True, help="Output CSV path")
+    parser.add_argument("--output", default=None, help="Output CSV path (default: korean_anki_final_{job_id}.csv)")
+    parser.add_argument("--job-id", default=None, help="Job ID to match generate_images.py run (used in output filename)")
     parser.add_argument("--anki-media", default=None,
                         help="Anki collection.media folder (auto-detected if omitted)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Preview what would happen without copying files")
     args = parser.parse_args()
 
+    # Resolve job ID and output path
+    job_id = args.job_id
+    if not job_id:
+        # Try to detect from images directory (look for timestamped subdirs)
+        images_dir = Path(args.images)
+        if images_dir.exists():
+            subdirs = sorted([d.name for d in images_dir.iterdir() if d.is_dir()])
+            if subdirs:
+                job_id = subdirs[-1]  # Most recent
+                print(f"Auto-detected job ID from latest run: {job_id}")
+
+    if not job_id:
+        from datetime import datetime
+        job_id = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    output_path = Path(args.output) if args.output else Path(f"korean_anki_final_{job_id}.csv")
+
     csv_path = Path(args.csv)
     images_dir = Path(args.images)
-    output_path = Path(args.output)
 
     # Resolve Anki media folder
     if args.anki_media:
@@ -151,6 +185,7 @@ def main():
     # Report
     prefix = "[DRY RUN] " if args.dry_run else ""
     print(f"\n{prefix}Results:")
+    print(f"  Job ID:               {job_id}")
     print(f"  Cards with images:    {cards_with_images}")
     print(f"  Cards without images: {cards_without_images}")
     print(f"  Unique images copied: {images_copied}")
