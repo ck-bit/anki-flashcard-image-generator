@@ -1,10 +1,6 @@
-Here’s a clean, structured **README.md** version:
-
----
-
 # Korean Flashcard Pipeline
 
-Turn Korean tutor session chat logs into Anki flashcards with AI-generated watercolor images.
+Turn Korean tutor session chat logs into Anki flashcards with stylized images. 
 
 ---
 
@@ -12,9 +8,8 @@ Turn Korean tutor session chat logs into Anki flashcards with AI-generated water
 
 1. You paste your tutor session transcript into Claude
 2. Claude outputs a structured CSV with vocabulary cards + image prompts
-3. Scripts generate watercolor images via the FAL API
+3. Scripts generate images via the FAL API
 4. Everything is wired into Anki for import
-
 ---
 
 # Setup
