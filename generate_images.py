@@ -1,3 +1,6 @@
+Generate images · PY
+Copy
+
 #!/usr/bin/env python3
 """
 Parallel image generation for Korean flashcard images.
@@ -67,10 +70,11 @@ def extract_korean_label(sentence: str) -> str:
 # ---------------------------------------------------------------------------
 # Prompt loading
 # ---------------------------------------------------------------------------
-def load_prompts_from_csv(path: str) -> list[tuple[int, str, str]]:
+def load_prompts_from_csv(path: str) -> list[tuple[int, list[str], str]]:
     """Load prompts from session CSV.
-    Returns unique [(scene_id, prompt, korean_label), ...].
-    Reads 'Prompt A' column. Deduplicates by Scene ID (one prompt per scene)."""
+    Returns unique [(scene_id, [prompt_a, prompt_b, ...], korean_label), ...].
+    Each prompt gets its own image (a=Prompt A, b=Prompt B).
+    Falls back: if only Prompt A exists, uses it for all images."""
     with open(path, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         rows = list(reader)
@@ -83,24 +87,27 @@ def load_prompts_from_csv(path: str) -> list[tuple[int, str, str]]:
         if scene_id in seen_scenes:
             continue
 
-        prompt = (row.get("Prompt A") or "").strip()
-        if not prompt:
+        prompt_a = (row.get("Prompt A") or "").strip()
+        prompt_b = (row.get("Prompt B") or "").strip()
+
+        prompts = [p for p in [prompt_a, prompt_b] if p]
+
+        if not prompts:
             skipped.append(scene_id)
             continue
 
         sentence = row.get("Full Sentence", "")
         korean_label = extract_korean_label(sentence)
-        seen_scenes[scene_id] = (scene_id, prompt, korean_label)
+        seen_scenes[scene_id] = (scene_id, prompts, korean_label)
 
     if skipped:
-        print(f"WARNING: {len(skipped)} scenes have no prompt in 'Prompt A': {skipped}")
+        print(f"WARNING: {len(skipped)} scenes have no prompts: {skipped}")
 
     return list(seen_scenes.values())
 
 
-def load_prompts_from_xlsx(path: str) -> list[tuple[int, str, str]]:
-    """Load prompts from the image prompt spreadsheet (legacy support).
-    Reads column H (Selected Prompt), falls back to column E (Prompt A)."""
+def load_prompts_from_xlsx(path: str) -> list[tuple[int, list[str], str]]:
+    """Load prompts from image prompt spreadsheet (legacy support)."""
     from openpyxl import load_workbook
 
     wb = load_workbook(path, read_only=True)
@@ -118,15 +125,20 @@ def load_prompts_from_xlsx(path: str) -> list[tuple[int, str, str]]:
 
         sentence = (row[1] or "").strip()
         selected = (row[7] or "").strip()
-        fallback = (row[4] or "").strip()
-        prompt = selected or fallback
+        prompt_a = (row[4] or "").strip()
+        prompt_b = (row[5] or "").strip()
 
-        if not prompt:
+        if selected:
+            prompts = [selected]
+        else:
+            prompts = [p for p in [prompt_a, prompt_b] if p]
+
+        if not prompts:
             skipped.append(scene_id)
             continue
 
         korean_label = extract_korean_label(sentence)
-        scenes.append((int(scene_id), prompt, korean_label))
+        scenes.append((int(scene_id), prompts, korean_label))
 
     wb.close()
 
@@ -136,13 +148,13 @@ def load_prompts_from_xlsx(path: str) -> list[tuple[int, str, str]]:
     return scenes
 
 
-def load_prompts_from_file(path: str) -> list[tuple[int, str, str]]:
+def load_prompts_from_file(path: str) -> list[tuple[int, list[str], str]]:
     """Load from text file. Scene IDs assigned sequentially."""
     lines = [
         l.strip() for l in Path(path).read_text().splitlines()
         if l.strip() and not l.startswith("#")
     ]
-    return [(i + 1, line, f"scene{i+1}") for i, line in enumerate(lines)]
+    return [(i + 1, [line], f"scene{i+1}") for i, line in enumerate(lines)]
 
 
 # ---------------------------------------------------------------------------
@@ -197,7 +209,7 @@ async def generate_one(
 
 
 async def generate_batch(
-    scenes: list[tuple[int, str, str]],
+    scenes: list[tuple[int, list[str], str]],
     images_per_scene: int,
     job_id: str,
 ) -> list[dict]:
@@ -205,8 +217,11 @@ async def generate_batch(
     letters = string.ascii_lowercase[:images_per_scene]
 
     tasks = []
-    for scene_id, prompt, korean_label in scenes:
-        for letter in letters:
+    for scene_id, prompts, korean_label in scenes:
+        for i, letter in enumerate(letters):
+            # Map letter to prompt: a→Prompt A, b→Prompt B
+            # If fewer prompts than images, cycle through available prompts
+            prompt = prompts[i % len(prompts)]
             tasks.append(
                 generate_one(scene_id, letter, prompt, korean_label, job_id, semaphore)
             )
@@ -281,12 +296,14 @@ async def main():
 
     if args.dry_run:
         letters = string.ascii_lowercase[:args.images_per_scene]
-        for scene_id, prompt, korean_label in scenes:
+        for scene_id, prompts, korean_label in scenes:
             safe = sanitize_filename(korean_label)
-            fnames = ", ".join(f"{scene_id:03d}_{l}_{safe}_{job_id}.png" for l in letters)
             print(f"  Scene {scene_id:03d} ({korean_label})")
-            print(f"    files: {fnames}")
-            print(f"    prompt: {prompt[:90]}...")
+            for i, letter in enumerate(letters):
+                prompt = prompts[i % len(prompts)]
+                fname = f"{scene_id:03d}_{letter}_{safe}_{job_id}.png"
+                label = chr(ord('A') + (i % len(prompts)))
+                print(f"    {fname} ← Prompt {label}: {prompt[:70]}...")
             print()
         print(f"Dry run complete. {total_images} images would be generated.")
         return
