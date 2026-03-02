@@ -6,7 +6,26 @@ You are converting a Korean tutor session transcript into Anki flashcard CSV for
 ## OUTPUT FORMAT
 Generate a CSV with these exact columns in this order:
 
-Front, Back, Full Sentence, Extra Info, Target Word (English), Front (Definitions), Prompt A, Prompt B, Image, Scene ID, Tag
+Front, Back, Full Sentence, Word Pronunciation, Front (Definitions), Front (Picture), Sentence Pronunciation, Word English Translation, Full English Translation, Scene ID, Tag, Prompt A, Prompt B
+
+## COLUMN MAPPING TO ANKI NOTE TYPE
+```
+CSV Column                → Anki Field
+─────────────────────────────────────────────────────
+Front                     → 1: Front (Example with word blanked out or missing)
+Back                      → 2: Back (a single word/phrase, no context)
+Full Sentence             → 3: The full sentence (no words blanked out)
+Word Pronunciation        → 4: Word Pronunciation
+Front (Definitions)       → 5: Front (Definitions, base word, etc.)
+Front (Picture)           → 6: Front (Picture) — leave blank, populated by image script
+Sentence Pronunciation    → 7: Sentence Pronunciation
+Word English Translation  → 8: Word English Translation
+Full English Translation  → 9: Full English Translation
+Scene ID                  → 10: Scene ID (custom, not shown on card)
+Tag                       → Anki tags (applied on import)
+Prompt A                  → stripped by image script (not imported to Anki)
+Prompt B                  → stripped by image script (not imported to Anki)
+```
 
 ## COLUMN DEFINITIONS
 
@@ -17,13 +36,13 @@ Korean sentence with the target word replaced by ____
 The target Korean word/phrase (the answer) — this must be the CONJUGATED form as it appears in the sentence, not the dictionary form.
 
 **Full Sentence**
-Complete Korean sentence
+Complete Korean sentence with no blanks.
 
-**Extra Info**
-English translation of the full sentence
-
-**Target Word (English)**
-English meaning of the target word
+**Word Pronunciation**
+Romanized pronunciation of the Back (target word) using standard romanization.
+- Example: Back is 간다 → Word Pronunciation is "ganda"
+- Example: Back is 짜증 → Word Pronunciation is "jjajeung"
+- Example: Back is 게을러 → Word Pronunciation is "geeulleo"
 
 **Front (Definitions)**
 Use this column to provide conjugation hints and base forms. Rules:
@@ -42,27 +61,27 @@ Use this column to provide conjugation hints and base forms. Rules:
   - Example: `돕다 (ㅂ irregular, past)` → answer is 도왔어요
   - Example: `모르다 (르 irregular, past)` → answer is 몰랐어요
 
-**Conjugation Testing Priority:**
-When a sentence contains a verb or adjective with a non-trivial conjugation, ALWAYS create a card that tests the conjugation. Non-trivial conjugations include:
-1. Irregular verbs (ㄷ, ㅂ, ㅅ, ㅎ, ㄹ, 르, ㅡ irregulars)
-2. Indirect speech endings (~ㄴ다고/는다고/다고/라고/자고 했어요)
-3. "Became" pattern (~아/어졌어요) especially with irregular bases
-4. Conditional (~면) with irregular stems
-5. Future modifier (~ㄹ/을) with irregular stems
-6. ~으려고 했어요 (was planning to)
-7. Any conjugation where the stem changes form
+**Front (Picture)**
+Leave blank. This is populated later by the image mapping script.
 
-**Prompt A**
-Image generation prompt using Style A (watercolor/Ghibli)
+**Sentence Pronunciation**
+Romanized pronunciation of the Full Sentence.
+- Example: Full Sentence is 친구를 초대했어요. → "chingureul chodaehaesseoyo."
+- Keep natural spacing between words.
 
-**Prompt B**
-Image generation prompt using Style B (cinematic/gritty)
+**Word English Translation**
+English meaning of the target word only.
+- Example: Back is 초대 → "invited"
+- Example: Back is 간다 → "going (present)"
+- Example: Back is 마라 → "don't (negative command)"
 
-**Image**
-Leave blank (populated later by script)
+**Full English Translation**
+English translation of the complete sentence.
+- Example: "I invited my friend."
+- Example: "I told the restaurant we might be a little late."
 
 **Scene ID**
-Integer, shared across all cards that use the same Full Sentence
+Integer, shared across all cards that use the same Full Sentence.
 
 **Tag**
 Comma-separated tags. Always include difficulty level (Beginner, Intermediate, or Advanced). Add grammar pattern tags as relevant:
@@ -75,6 +94,24 @@ Comma-separated tags. Always include difficulty level (Beginner, Intermediate, o
 - `progressive` for ~고 있다 patterns
 - `irregular` for any irregular conjugation, plus the specific type (e.g., `irregular-르`)
 - `conjugation` for any card primarily testing a conjugation
+
+**Prompt A**
+Image generation prompt using Style A (watercolor/Ghibli). Stripped by the image mapping script before Anki import.
+
+**Prompt B**
+Image generation prompt using Style B (cinematic/gritty). Stripped by the image mapping script before Anki import.
+
+## CONJUGATION TESTING PRIORITY
+When a sentence contains a verb or adjective with a non-trivial conjugation, ALWAYS create a card that tests the conjugation. Non-trivial conjugations include:
+1. Irregular verbs (ㄷ, ㅂ, ㅅ, ㅎ, ㄹ, 르, ㅡ irregulars)
+2. Indirect speech endings (~ㄴ다고/는다고/다고/라고/자고 했어요)
+3. "Became" pattern (~아/어졌어요) especially with irregular bases
+4. Conditional (~면) with irregular stems
+5. Future modifier (~ㄹ/을) with irregular stems
+6. ~으려고 했어요 (was planning to)
+7. Any conjugation where the stem changes form
+
+When testing conjugation, always blank the conjugated stem (e.g., 갈, 바쁠, 먹을), never the grammar ending (e.g., 거예요, 수 있어요). The grammar ending provides context; the stem is the test.
 
 ## CARD CREATION RULES
 - Create one card per target vocabulary word or grammar pattern
