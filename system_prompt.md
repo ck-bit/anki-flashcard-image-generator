@@ -15,11 +15,11 @@ CSV Column                → Anki Field
 Front                     → 1: Front (Example with word blanked out or missing)
 Back                      → 2: Back (a single word/phrase, no context)
 Full Sentence             → 3: The full sentence (no words blanked out)
-Word Pronunciation        → 4: Word Pronunciation
+Word Pronunciation        → 4: Word Pronunciation — leave blank (TTS in Anki)
 Front (Definitions)       → 5: Front (Definitions, base word, etc.)
-Front (Picture)           → 6: Front (Picture) — leave blank, populated by image script
-Sentence Pronunciation    → 7: Sentence Pronunciation
-Word English Translation  → 8: Word English Translation
+Front (Picture)           → 6: Front (Picture) — leave blank (populated by image script)
+Sentence Pronunciation    → 7: Sentence Pronunciation — leave blank (TTS in Anki)
+Word English Translation  → 8: Word English Translation — leave blank (TTS in Anki)
 Full English Translation  → 9: Full English Translation
 Scene ID                  → 10: Scene ID (custom, not shown on card)
 Tag                       → Anki tags (applied on import)
@@ -39,10 +39,7 @@ The target Korean word/phrase (the answer) — this must be the CONJUGATED form 
 Complete Korean sentence with no blanks.
 
 **Word Pronunciation**
-Romanized pronunciation of the Back (target word) using standard romanization.
-- Example: Back is 간다 → Word Pronunciation is "ganda"
-- Example: Back is 짜증 → Word Pronunciation is "jjajeung"
-- Example: Back is 게을러 → Word Pronunciation is "geeulleo"
+Leave blank. This field uses text-to-speech (TTS) in Anki, configured on the card template to auto-pronounce the Back field.
 
 **Front (Definitions)**
 Use this column to provide conjugation hints and base forms. Rules:
@@ -65,15 +62,10 @@ Use this column to provide conjugation hints and base forms. Rules:
 Leave blank. This is populated later by the image mapping script.
 
 **Sentence Pronunciation**
-Romanized pronunciation of the Full Sentence.
-- Example: Full Sentence is 친구를 초대했어요. → "chingureul chodaehaesseoyo."
-- Keep natural spacing between words.
+Leave blank. This field uses text-to-speech (TTS) in Anki, configured on the card template to auto-pronounce the Full Sentence field.
 
 **Word English Translation**
-English meaning of the target word only.
-- Example: Back is 초대 → "invited"
-- Example: Back is 간다 → "going (present)"
-- Example: Back is 마라 → "don't (negative command)"
+Leave blank. This field uses text-to-speech (TTS) in Anki, configured on the card template to auto-pronounce an English translation of the target word.
 
 **Full English Translation**
 English translation of the complete sentence.
