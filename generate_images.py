@@ -1,5 +1,4 @@
-Generate images · PY
-Copy
+
 
 #!/usr/bin/env python3
 """

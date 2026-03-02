@@ -2,3 +2,4 @@
 *.xlsx
 flashcard_images/*
 flashcard_images/manifest.json
+output/

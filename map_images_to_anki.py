@@ -8,20 +8,30 @@ Usage:
         --images flashcard_images
 
 What this does:
-    1. Reads the session CSV (with Scene ID as last column)
+    1. Reads the session CSV (with Scene ID, Tag, Prompt A, Prompt B)
     2. Scans the images folder for {scene_id}_{letter}_{korean}_{job_id}.png
-    3. Populates the "Image" column with <img> tags
+    3. Populates the "Front (Picture)" column with <img> tags
     4. Strips Prompt A / Prompt B columns (not needed for Anki import)
     5. Copies matched images into Anki's collection.media folder
     6. Writes final CSV: korean_anki_final_{job_id}.csv
 
-Input CSV columns:
-    Front, Back, Full Sentence, Extra Info, Target Word (English),
-    Front (Definitions), Prompt A, Prompt B, Image, Scene ID
+Input CSV columns (from system prompt):
+    Front, Back, Full Sentence, Word Pronunciation, Front (Definitions),
+    Front (Picture), Sentence Pronunciation, Word English Translation,
+    Full English Translation, Scene ID, Tag, Prompt A, Prompt B
 
-Output CSV columns (Anki-ready):
-    Front, Back, Full Sentence, Extra Info, Target Word (English),
-    Front (Definitions), Image, Scene ID
+Output CSV columns (Anki-ready, matches note type field order):
+    1: Front
+    2: Back
+    3: Full Sentence
+    4: Word Pronunciation
+    5: Front (Definitions)
+    6: Front (Picture)
+    7: Sentence Pronunciation
+    8: Word English Translation
+    9: Full English Translation
+    10: Scene ID
+    11: Tag
 """
 
 import argparse
@@ -82,17 +92,24 @@ def build_img_tags(filenames: list[str]) -> str:
     return " ".join(f'<img src="{name}">' for name in filenames)
 
 
-# Columns to keep for Anki import (in order)
+# Columns to output for Anki import (matches note type field order)
+# Prompt A and Prompt B are stripped
 ANKI_COLUMNS = [
     "Front",
     "Back",
     "Full Sentence",
-    "Extra Info",
-    "Target Word (English)",
+    "Word Pronunciation",
     "Front (Definitions)",
-    "Image",
+    "Front (Picture)",
+    "Sentence Pronunciation",
+    "Word English Translation",
+    "Full English Translation",
     "Scene ID",
+    "Tag",
 ]
+
+# Columns that exist in the input CSV but should be stripped for Anki
+STRIP_COLUMNS = ["Prompt A", "Prompt B"]
 
 
 def main():
@@ -149,12 +166,16 @@ def main():
         reader = csv.DictReader(f)
         rows = list(reader)
 
+    # Validate expected columns
+    input_cols = set(rows[0].keys()) if rows else set()
+    missing = set(ANKI_COLUMNS) - input_cols
+    if missing:
+        print(f"WARNING: Missing expected columns in input CSV: {missing}")
+        print(f"         Available columns: {sorted(input_cols)}")
+
     # Determine output columns
     if args.keep_prompts:
-        out_columns = list(rows[0].keys())
-        # Make sure Image is in there
-        if "Image" not in out_columns:
-            out_columns.insert(-1, "Image")  # Before Scene ID
+        out_columns = ANKI_COLUMNS + STRIP_COLUMNS
     else:
         out_columns = ANKI_COLUMNS
 
@@ -165,16 +186,16 @@ def main():
     output_rows = []
 
     for row in rows:
-        scene_id = int(row["Scene ID"])
+        scene_id = int(row.get("Scene ID", 0))
         images = scene_images.get(scene_id, [])
 
         if images:
             filenames = [img.name for img in images]
-            row["Image"] = build_img_tags(filenames)
+            row["Front (Picture)"] = build_img_tags(filenames)
             cards_with_images += 1
             files_to_copy.update(images)
         else:
-            row["Image"] = row.get("Image", "")
+            row["Front (Picture)"] = row.get("Front (Picture)", "")
             cards_without_images += 1
 
         output_rows.append(row)
@@ -206,13 +227,25 @@ def main():
     print(f"  Output CSV:           {output_path}")
     print(f"  Anki media folder:    {anki_media}")
     print(f"  Prompt columns:       {'kept' if args.keep_prompts else 'stripped'}")
+    print(f"  Output columns:       {len(out_columns)}")
+
+    # Tag summary
+    tag_counts = defaultdict(int)
+    for row in output_rows:
+        tags = row.get("Tag", "")
+        for tag in [t.strip() for t in tags.split(",") if t.strip()]:
+            tag_counts[tag] += 1
+    if tag_counts:
+        print(f"\n  Tag distribution:")
+        for tag, count in sorted(tag_counts.items(), key=lambda x: -x[1]):
+            print(f"    {tag}: {count}")
 
     if cards_without_images > 0:
-        missing = set()
+        missing_scenes = set()
         for row in output_rows:
-            if not row.get("Image"):
-                missing.add(int(row["Scene ID"]))
-        print(f"\n  Missing scenes: {sorted(missing)}")
+            if not row.get("Front (Picture)"):
+                missing_scenes.add(int(row.get("Scene ID", 0)))
+        print(f"\n  Missing scenes: {sorted(missing_scenes)}")
 
 
 if __name__ == "__main__":
