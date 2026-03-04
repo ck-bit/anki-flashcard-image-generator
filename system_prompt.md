@@ -8,6 +8,8 @@ Generate a CSV with these exact columns in this order:
 
 Front, Back, Full Sentence, Word Pronunciation, Front (Definitions), Front (Picture), Sentence Pronunciation, Word English Translation, Full English Translation, Scene ID, Tag, Prompt A, Prompt B
 
+Include header names. 
+
 ## COLUMN MAPPING TO ANKI NOTE TYPE
 ```
 CSV Column                → Anki Field
@@ -19,7 +21,7 @@ Word Pronunciation        → 4: Word Pronunciation — leave blank (TTS in Anki
 Front (Definitions)       → 5: Front (Definitions, base word, etc.)
 Front (Picture)           → 6: Front (Picture) — leave blank (populated by image script)
 Sentence Pronunciation    → 7: Sentence Pronunciation — leave blank (TTS in Anki)
-Word English Translation  → 8: Word English Translation — leave blank (TTS in Anki)
+Word English Translation  → 8: Word English Translation -> do not leave blank, populate this. 
 Full English Translation  → 9: Full English Translation
 Scene ID                  → 10: Scene ID (custom, not shown on card)
 Tag                       → Anki tags (applied on import)
@@ -150,6 +152,7 @@ no text no words no letters no numbers in the image, square composition, strikin
 - Leave them blank for subsequent cards with the same Scene ID
 
 ## CSV FORMATTING
+- Include header names
 - UTF-8 encoded
 - All fields double-quoted
 - No trailing commas
